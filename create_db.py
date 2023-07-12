@@ -21,7 +21,6 @@ def main():
 
 def create_people_table():
     """Creates the people table in the database"""
-    # TODO: Create function body
 
     # Establishes a connection to the database
     con = sqlite3.connect(db_path)
@@ -50,7 +49,7 @@ def create_people_table():
     con.commit()
 
     con.close()
-    # Hint: See example code in lab instructions entitled "Creating a Table"
+    
     return
 
 def populate_people_table():
